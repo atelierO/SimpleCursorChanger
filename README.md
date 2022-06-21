@@ -1,7 +1,7 @@
 SimpleCursorChange ![apm](https://img.shields.io/apm/l/vim-mode.svg)
 ===
-- 커서 이미지 파일 간단하게 교체하는 프로그램입니다
--  Program for changing cursor image simply   
+- C#/.NET5로 작성된 커서 이미지 파일 간단하게 교체하는 프로그램입니다
+-  Program for changing cursor image simply by C#/.NET   
 
 ![Preview Image](img/preview.png)
 
