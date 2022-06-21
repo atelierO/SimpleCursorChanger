@@ -35,6 +35,6 @@ The name of cursor image for changing should be written in format below
 | ![i16](img/Pin.png)       | 위치 선택              | Location Selet  | Pin         |
 | ![i17](img/Person.png)    | 사용자 선택            | Person Select  | Person      |
 
-예시
+예시 / Example
 ---
 ![preview_ex](img/preview_example.png)
