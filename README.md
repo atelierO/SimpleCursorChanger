@@ -1,7 +1,4 @@
-# SimpleCursorChanger
-Change Windows10/11 Cursor in simple way
-
-SimpleCursorChanger
+SimpleCursorChange ![apm](https://img.shields.io/apm/l/vim-mode.svg)
 ===
 - 커서 이미지 파일 간단하게 교체하는 프로그램입니다
 -  Program for changing cursor image simply   
