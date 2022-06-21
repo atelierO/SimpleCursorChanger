@@ -9,7 +9,7 @@ SimpleCursorChanger ![apm](https://img.shields.io/apm/l/vim-mode.svg)
 ===
 - ...을 클릭해 커서 이미지를 포함한 폴더를 선택
 - 자신에 환경에 맞는 커서 사이즈 선택 후 Apply 클릭   
-- Click ... to select folder including cursor image 
+- Click ... to select folder including cursor images
 - Click apply after set cursor size to fit on your environment    
 
 바꿀 커서 이미지의 이름은 아래의 포맷에 맞추어 작성해야 프로그램이 인식한다
