@@ -101,6 +101,7 @@ namespace SimpleCursorChangerGUI
                 }
                 else cursor_shceme += ",";
             }
+            
             Registry.SetValue(regKey + "\\Schemes", folder_name, cursor_shceme.TrimEnd(),RegistryValueKind.ExpandString);
             SystemParametersInfo(SPI_SETCURSORS, 0, 0, SPIF_UPDATEINIFILE | SPIF_SENDCHANGE);
         }
@@ -109,7 +110,6 @@ namespace SimpleCursorChangerGUI
         {
             foreach (string val in CURSOR_NAMES)
             {
-
                 Registry.SetValue(regKey, val, "");
             }
             SystemParametersInfo(SPI_SETCURSORS, 0, 0, SPIF_UPDATEINIFILE | SPIF_SENDCHANGE);
