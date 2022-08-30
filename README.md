@@ -12,7 +12,7 @@ SimpleCursorChanger ![apm](https://img.shields.io/apm/l/vim-mode.svg)
 - Click ... to select folder including cursor images
 - Click apply after set cursor size to fit on your environment    
 
-바꿀 커서 이미지의 이름은 아래의 포맷에 맞추어 작성해야 프로그램이 인식한다
+바꿀 커서 이미지의 이름은 아래의 포맷에 맞추어 작성해야 프로그램이 인식한다   
 The name of cursor image for changing should be written in format below   
 
 | 이미지<br>image |  한글명  | English Name  |  포맷<br>Format  |
