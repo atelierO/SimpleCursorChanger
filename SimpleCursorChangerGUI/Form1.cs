@@ -78,6 +78,11 @@ namespace SimpleCursorChangerGUI
 
             foreach (string val in CURSOR_NAMES)
             {
+                //C:\\등 경로일 경우 일반 경로와 다르게 \\를 포함하고 있기 때문에 \\를 삭제
+                if (tbPath.Text.Substring(tbPath.Text.Length-1).Equals("\\"))
+                {
+                    tbPath.Text = tbPath.Text.Substring(0, tbPath.Text.Length - 2);
+                }
                 string cursorPath = tbPath.Text + "\\" + val;
                 string ext = "";
                 bool fileExist = false;
