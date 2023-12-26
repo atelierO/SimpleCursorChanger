@@ -115,7 +115,14 @@ namespace SimpleCursorChanger
             var hiveKey = RegistryKey.OpenBaseKey(RegistryHive.CurrentUser, RegistryView.Default);
             var subKey = hiveKey.OpenSubKey("Control Panel")!
                 .OpenSubKey("Cursors")!
-                .OpenSubKey("Schemes")!;
+                .OpenSubKey("Schemes");
+
+            if(subKey == null)
+            {
+                subKey = hiveKey.OpenSubKey("Control Panel")!
+                .OpenSubKey("Cursors", writable: true)!
+                .CreateSubKey("Schemes");
+            }
 
             var keyValues = subKey.GetValueNames();
 
